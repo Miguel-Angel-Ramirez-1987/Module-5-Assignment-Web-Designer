@@ -1,0 +1,31 @@
+/* Note: CSS are applied from top to bottom. */
+/* Note: This is an external sytlesheet. */
+
+.external-css {
+}
+
+/* default styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    width: 90%;
+    margin: 1em auto;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+    border-top: 2px solid var(--light);
+    padding-top: .5em;
+    & p {
+        font-size: 80%;
+        text-align: right;
+    }
+}
+
