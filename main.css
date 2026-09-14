@@ -10,14 +10,12 @@ body {
     font-size: 100%;
     width: 90%;
     margin: 1em auto;
+    background-color: burlywood;
+    text-align:center;  
 }
 
-header {
-
-}
-
-main {
-
+nav {
+    text-align: right;  
 }
 
 footer {
@@ -28,14 +26,20 @@ footer {
         text-align: right;
     }
 }
-
-a: link {
-    color: green;
-}
+: 
 
 a:hover, a:focus {
     text-decoration: none;
     font-size: 110%;
 }
 
+body {
+    border: 3px solid black;
+    margin: 10em;  
+}
 
+table {
+    background-color: palegoldenrod;
+    border: 5px solid black;
+    text-align: right;  
+}
